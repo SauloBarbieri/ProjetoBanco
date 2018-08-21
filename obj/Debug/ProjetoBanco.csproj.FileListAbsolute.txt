@@ -1,0 +1,10 @@
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.csprojAssemblyReference.cache
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.Form1.resources
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.Properties.Resources.resources
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.csproj.GenerateResource.cache
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.csproj.CoreCompileInputs.cache
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\bin\Debug\ProjetoBanco.exe.config
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\bin\Debug\ProjetoBanco.exe
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\bin\Debug\ProjetoBanco.pdb
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.exe
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.pdb
