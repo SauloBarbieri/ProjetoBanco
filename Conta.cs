@@ -1,4 +1,6 @@
-﻿namespace ProjetoBanco
+﻿using System;
+
+namespace ProjetoBanco
 {
     public class Conta
     {
@@ -13,9 +15,20 @@
             this.SaldoDaConta = saldoDaConta;
         }
 
+        public virtual void Depositar(double valorOperacao)
+        {
+            this.SaldoDaConta += valorOperacao;
+        }
 
-
-
+        public virtual bool Sacar(double valorOperacao)
+        {
+            if (this.SaldoDaConta >= valorOperacao)
+            {
+                this.SaldoDaConta -= valorOperacao;
+                return true;
+            }
+            return false;
+        }
     }
 
 
