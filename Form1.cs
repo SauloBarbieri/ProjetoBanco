@@ -77,7 +77,8 @@ namespace ProjetoBanco
                 MessageBox.Show("Titular da Conta: " + contasCorrentes[i].TitularDaConta);
                 MessageBox.Show("Saldo da Conta R$: " + contasCorrentes[i].SaldoDaConta);
             }
-                       
+            //MessageBox.Show("Tem Algo Errado Aqui");
+
         }
 
         private void botaoDepositar_Click(object sender, EventArgs e)
@@ -107,6 +108,61 @@ namespace ProjetoBanco
             
         }
 
+        public void botaoAutoCadastrar_Click(object sender, EventArgs e)
+        {
+            int codigoConta;
+            string titularConta;
+            double saldoConta;
+
+
+            for (int indice = 0; numeroDeContas < contasCorrentes.Length; indice++)
+            {
+                
+                contasCorrentes[numeroDeContas] = new ContaCorrente();
+
+                codigoConta = 10;
+                titularConta = "Saulo";
+                saldoConta = 200.0;
+
+                if (1 == numeroDeContas)
+                {
+                    codigoConta = 20;
+                    titularConta = "Loreley";
+                    saldoConta = 300.0;
+                }
+                else if (2 == numeroDeContas)
+                {
+                    codigoConta = 30;
+                    titularConta = "Sergio";
+                    saldoConta = 300.0;
+                }
+                else if (3 == numeroDeContas)
+                {
+                    codigoConta = 40;
+                    titularConta = "Maricy";
+                    saldoConta = 400.0;
+                }
+
+                else if (4 == numeroDeContas)
+                {
+                    codigoConta = 50;
+                    titularConta = "Noemia";
+                    saldoConta = 500.0;
+                }
+
+               
+                contasCorrentes[numeroDeContas].Cadastrar(codigoConta, titularConta, saldoConta);
+
+                // mostrar no ComboBox o índice da Conta na Array
+                comboContas.Items.Add(numeroDeContas);
+
+                numeroDeContas++;
+            }
+
+            MessageBox.Show("Cadastro Realizado com Sucesso!");
+
+        }
+
         private void comboContas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -119,7 +175,5 @@ namespace ProjetoBanco
             textoSaldo.Text = Convert.ToString(contasCorrentes[indice].SaldoDaConta);
 
         }
-
-        
     }
 }

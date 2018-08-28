@@ -44,6 +44,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.comboContas = new System.Windows.Forms.ComboBox();
+            this.botaoAutoCadastrar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -58,6 +59,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.botaoAutoCadastrar);
             this.groupBox1.Controls.Add(this.botaoExibir);
             this.groupBox1.Controls.Add(this.botaoCadastrar);
             this.groupBox1.Controls.Add(this.label3);
@@ -75,7 +77,7 @@
             // 
             // botaoExibir
             // 
-            this.botaoExibir.Location = new System.Drawing.Point(175, 93);
+            this.botaoExibir.Location = new System.Drawing.Point(205, 93);
             this.botaoExibir.Name = "botaoExibir";
             this.botaoExibir.Size = new System.Drawing.Size(75, 23);
             this.botaoExibir.TabIndex = 7;
@@ -85,7 +87,7 @@
             // 
             // botaoCadastrar
             // 
-            this.botaoCadastrar.Location = new System.Drawing.Point(81, 93);
+            this.botaoCadastrar.Location = new System.Drawing.Point(124, 93);
             this.botaoCadastrar.Name = "botaoCadastrar";
             this.botaoCadastrar.Size = new System.Drawing.Size(75, 23);
             this.botaoCadastrar.TabIndex = 6;
@@ -203,6 +205,16 @@
             this.comboContas.TabIndex = 4;
             this.comboContas.SelectedIndexChanged += new System.EventHandler(this.comboContas_SelectedIndexChanged);
             // 
+            // botaoAutoCadastrar
+            // 
+            this.botaoAutoCadastrar.Location = new System.Drawing.Point(7, 93);
+            this.botaoAutoCadastrar.Name = "botaoAutoCadastrar";
+            this.botaoAutoCadastrar.Size = new System.Drawing.Size(92, 23);
+            this.botaoAutoCadastrar.TabIndex = 8;
+            this.botaoAutoCadastrar.Text = "Auto-Cadastrar";
+            this.botaoAutoCadastrar.UseVisualStyleBackColor = true;
+            this.botaoAutoCadastrar.Click += new System.EventHandler(this.botaoAutoCadastrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +254,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.ComboBox comboContas;
+        private System.Windows.Forms.Button botaoAutoCadastrar;
     }
 }
 
