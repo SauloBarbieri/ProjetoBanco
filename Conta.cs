@@ -8,11 +8,11 @@ namespace ProjetoBanco
         public string TitularDaConta { get; private set; }
         public double SaldoDaConta { get; private set; }
 
-        public void Cadastrar(int codigoDaConta, string titularDaConta, double saldoDaConta)
+        public void Cadastrar(int codigoDaConta, string titularDaConta)
         {
             this.CodigoDaConta = codigoDaConta;
             this.TitularDaConta = titularDaConta;
-            this.SaldoDaConta = saldoDaConta;
+            //this.SaldoDaConta = saldoDaConta;
         }
 
         public virtual void Depositar(double valorOperacao)
@@ -28,6 +28,12 @@ namespace ProjetoBanco
                 return true;
             }
             return false;
+        }
+
+        public virtual void Transferir(double valorOperacaoTransf, Conta destino)
+        {
+            this.Sacar(valorOperacaoTransf);
+            destino.Depositar(valorOperacaoTransf);
         }
     }
 

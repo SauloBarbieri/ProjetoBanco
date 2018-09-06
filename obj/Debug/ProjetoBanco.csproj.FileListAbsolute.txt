@@ -8,3 +8,6 @@ D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\bin\Debug\Proje
 D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\bin\Debug\ProjetoBanco.pdb
 D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.exe
 D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.pdb
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.FormCadastroConta.resources
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.formDeposito.resources
+D:\Estudo\Curso Alura C#\10 - Projetos\ProjetoBanco\ProjetoBanco\obj\Debug\ProjetoBanco.formExtrato.resources
